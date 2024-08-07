@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 1.0;
+    box-sizing: border-box;
+}
+
+header {
+    background: #9cc1b0;
+    color: #000000;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+section {
+    letter-spacing: 1.5px;
+    font-style:normal,bold;
+    font-family: 'Segoe UI';
+
+    padding: 2em;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.project {
+    margin-bottom: 1em;
+}
+
+form {
+    display: flex;
+    flex-direction:column;
+}
+
+form label {
+    margin: 0.3em 0 0.2em;
+}
+
+form input, form textarea {
+    padding: 0.5em;
+    margin-bottom: 2.5em;
+    width: 90%;
+   
+}
+
+form button {
+    padding: 1em;
+    background: rgb(164, 170, 218);
+    color: #000;
+    border: none;
+    cursor: pointer;
+    width: 12%;
+    border-radius: 100%;
+    
+    
+}
+
+.submit{
+
+    text-align: center;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 0.5em 0;
+    }
+}
+/* ----------------------------------------------------------------------------------- */
+.skill {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    position: relative;
+}
+
+.progress {
+    background-color: #f3f3f3;
+    border-radius: 13px;
+    overflow: hidden;
+    height: 10px;
+    margin-top: 5px;
+    width: 75%;
+}
+
+.progress-bar {
+    background-color: #42966f;
+    height: 10px;
+    border-radius: 13px;
+}
